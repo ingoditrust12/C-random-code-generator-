@@ -13,7 +13,7 @@ int main() {
 
    printf("Random number: ");
    for (i = 0; i < length; i++) {
-      int numbers = rand() %10 ; // generate a random number between 0 and 10
+      int numbers = rand() %10 ; // generate a random number between 0 and 9
       printf("%d", numbers);
    }
    printf("\n");
